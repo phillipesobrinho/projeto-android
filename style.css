@@ -12,7 +12,7 @@
         */
         @font-face {
             font-family: "Android";
-            src: url("/android-site.txt");
+            src: url("fontes/android-site.txt");
             font-weight: normal;
         }
 
@@ -26,7 +26,7 @@
 
         --fonte-padrao:arial, verdana, helvetica, sans-serif;
         --fonte-destaque: "Bebas Neue", cursive;
-        --fonte-android: "Android"
+        --fonte-android: "var(--fonte-android)"
         }
 
         *{
@@ -76,7 +76,7 @@
                     header > p {
                         color: white;
                         max-width: auto;
-                        font-family: var(--fonte-padrao);
+                        font-family: var(--fonte-android);
                     font-size: 60%;
                         padding-right: 10px;
                         padding-left: 10px;
